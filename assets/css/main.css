@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "GroteskSemiBold";
+    src: url("../fonts/RidleyGrotesk-SemiBold.ttf");
+}
+@font-face {
+    font-family: "century-gothic";
+    src: url("../fonts/century-gothic/CenturyGothic.ttf");
+}
+body{
+    font-family: "century-gothic";
+    margin: 0;
+}
+.custom-navbar {
+    width: 85%;
+    padding-top: 43px;
+    margin: auto;
+    font-family: "GroteskSemiBold";
+}
+
+.navbar-brand img{
+    width: 370px;
+}
+.navbar-child-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-child-wrapper .navbar-nav{
+    margin-right: 0 !important;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+}
+.nav-link,.nav-link-btn {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #818181;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link:hover {
+    color: #E87CA9;
+}
+.nav-link-btn{
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    border: 1px solid black;
+}
+.nav-link-btn:hover{
+    background-color: transparent;
+    background: linear-gradient(270deg,#231f20,#231f20,rgba(34,34,34,0),rgba(34,34,34,0));
+    background-size: 300% 300%;
+    background-position: 99% 50%;
+    transition: all .5s ease-out;
+    color: white;
+}
+.nav-link-btn:hover .phone-icon{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' style='&%2310; width: 18px;&%2310; height: 18px;&%2310;'%3E%3Cpath fill='%236563ff' d='M19.44,13c-.22,0-.45-.07-.67-.12a9.44,9.44,0,0,1-1.31-.39,2,2,0,0,0-2.48,1l-.22.45a12.18,12.18,0,0,1-2.66-2,12.18,12.18,0,0,1-2-2.66L10.52,9a2,2,0,0,0,1-2.48,10.33,10.33,0,0,1-.39-1.31c-.05-.22-.09-.45-.12-.68a3,3,0,0,0-3-2.49h-3a3,3,0,0,0-3,3.41A19,19,0,0,0,18.53,21.91l.38,0a3,3,0,0,0,2-.76,3,3,0,0,0,1-2.25v-3A3,3,0,0,0,19.44,13Zm.5,6a1,1,0,0,1-.34.75,1.05,1.05,0,0,1-.82.25A17,17,0,0,1,4.07,5.22a1.09,1.09,0,0,1,.25-.82,1,1,0,0,1,.75-.34h3a1,1,0,0,1,1,.79q.06.41.15.81a11.12,11.12,0,0,0,.46,1.55l-1.4.65a1,1,0,0,0-.49,1.33,14.49,14.49,0,0,0,7,7,1,1,0,0,0,.76,0,1,1,0,0,0,.57-.52l.62-1.4a13.69,13.69,0,0,0,1.58.46q.4.09.81.15a1,1,0,0,1,.79,1Z' style='&%2310; fill: white;&%2310;'/%3E%3C/svg%3E");
+}
+.nav-link-btn:nth-of-type(1){
+    margin-right: 15px;
+}
+.footer-class{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 385px;
+    background-color: #746b5c;
+}
+.footer-upper {
+    border: 1px solid #AFAFAF;
+}
+.footer-class .footer-logo-wrapper img{
+    width: 371px;
+}
+.footer-logo-wrapper {
+    padding: 72px 0 36px 0;
+    text-align: center;
+}
+.footer-desc {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 55px;
+    text-align: center;
+}
+.footer-desc p{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    color: #ffffff;
+}
+.footer-lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy-right-text {
+    font-size: 17px;
+    color: white;
+    margin: 0;
+    padding-top: 21px;
+}
+.phone-icon{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' style='&%2310; width: 18px;&%2310; height: 18px;&%2310;'%3E%3Cpath fill='%236563ff' d='M19.44,13c-.22,0-.45-.07-.67-.12a9.44,9.44,0,0,1-1.31-.39,2,2,0,0,0-2.48,1l-.22.45a12.18,12.18,0,0,1-2.66-2,12.18,12.18,0,0,1-2-2.66L10.52,9a2,2,0,0,0,1-2.48,10.33,10.33,0,0,1-.39-1.31c-.05-.22-.09-.45-.12-.68a3,3,0,0,0-3-2.49h-3a3,3,0,0,0-3,3.41A19,19,0,0,0,18.53,21.91l.38,0a3,3,0,0,0,2-.76,3,3,0,0,0,1-2.25v-3A3,3,0,0,0,19.44,13Zm.5,6a1,1,0,0,1-.34.75,1.05,1.05,0,0,1-.82.25A17,17,0,0,1,4.07,5.22a1.09,1.09,0,0,1,.25-.82,1,1,0,0,1,.75-.34h3a1,1,0,0,1,1,.79q.06.41.15.81a11.12,11.12,0,0,0,.46,1.55l-1.4.65a1,1,0,0,0-.49,1.33,14.49,14.49,0,0,0,7,7,1,1,0,0,0,.76,0,1,1,0,0,0,.57-.52l.62-1.4a13.69,13.69,0,0,0,1.58.46q.4.09.81.15a1,1,0,0,1,.79,1Z' style='&%2310; fill: %23818181;&%2310;'/%3E%3C/svg%3E");
+}
