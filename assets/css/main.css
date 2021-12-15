@@ -6,14 +6,18 @@
     font-family: "century-gothic";
     src: url("../fonts/century-gothic/CenturyGothic.ttf");
 }
+@font-face {
+    font-family: "times-nr-bold";
+    src: url("../fonts/times-new-roman-bold.ttf");
+}
 body{
     font-family: "century-gothic";
     margin: 0;
 }
 .custom-navbar {
-    /* width: 85%; */
+    width: 80%;
     padding-top: 43px;
-    margin: auto 50px;
+    margin: auto;
     font-family: "GroteskSemiBold";
 }
 
@@ -118,12 +122,14 @@ body{
 .services-section {
     max-width: 80%;
     /* max-width: 1000px; */
-    margin: 200px 0 200px 300px;
+    /* margin: 200px 0 200px 300px; */
+    margin: 200px auto;
 }
 .grid {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
 .grid-item {
     width: 25%;
@@ -163,7 +169,8 @@ body{
     height: calc(100% + 50px);
     background: #f1f1f1;
     top: -150px;
-    left: -250px;
+    left: 0;
+    /* left: -250px; */
 }
 .heading-overlay{
     font-size: 22px;
@@ -190,8 +197,9 @@ section.cosmetic-laser-section {
     padding-left: 30px;
 }
 .service-number {
+    font-family: "times-nr-bold";
     font-size: 140px;
-    font-weight: 900;
+    font-weight: 700;
 }
 .service-heading {
     font-size: 24px;
