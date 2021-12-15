@@ -11,9 +11,9 @@ body{
     margin: 0;
 }
 .custom-navbar {
-    width: 85%;
+    /* width: 85%; */
     padding-top: 43px;
-    margin: auto;
+    margin: auto 50px;
     font-family: "GroteskSemiBold";
 }
 
@@ -129,6 +129,10 @@ body{
     width: 25%;
     margin-right: 0.5%;
 }
+.grid-item.placeholder-grid {
+    background: #EAEAE8;
+    z-index: 9;
+}
 .img-container{
     position: relative;
 }
@@ -146,7 +150,7 @@ body{
     left: 0;
     padding: 0 5px;
     width: 100%;
-    color: #000000;
+    color: #A6A998;
     font-size: 29px;
     font-weight: 400;
 }
@@ -166,7 +170,7 @@ body{
     /* width: 57%; */
     text-align: center;
     margin-top: 50px;
-    text-transform: lowercase;
+    /* text-transform: s; */
 }
 section.cosmetic-laser-section {
     margin: 200px 0;
@@ -202,8 +206,15 @@ section.cosmetic-laser-section {
 .cls-right ul li{
     margin-bottom: 8px;
 }
+.grey-bg-overlay span {
+    padding-left: 15px;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+}
 .overlay-text-bg {
-    margin-top: 50px;
+    margin-top: 0px;
     font-weight: 400;
     padding-left: 15px;
     width: 58%;
