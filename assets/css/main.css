@@ -265,6 +265,7 @@ section.cosmetic-laser-section {
 }
 .rectangular1x1-block .grid-item .grid-img{
     height: 100%;
+    object-fit: cover;
 }
 .rectangular1x3-block .grid-item{
     width: 25%;
