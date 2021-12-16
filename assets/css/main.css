@@ -130,14 +130,17 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    flex-flow: column;
 }
 .grid-item {
     width: 25%;
+    display: inline-block;
     margin-right: 0.5%;
 }
 .grid-item.placeholder-grid {
     background: #EAEAE8;
     z-index: 9;
+    margin-bottom: 0.5%;
 }
 .img-container{
     position: relative;
@@ -225,8 +228,48 @@ section.cosmetic-laser-section {
     margin-top: 0px;
     font-weight: 400;
     padding-left: 15px;
-    width: 58%;
+    width: 55%;
     letter-spacing: 0.5px;
     line-height: 27px;
     font-size: 18px;
+}
+.block-container {
+    display: flex;
+    /* width: 80%; */
+}
+.rectangular2x1-block {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.rectangular1x1-block{
+    width: 25%;
+    margin-bottom: 0.5%;
+}
+.rectangular1x3-block {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.rectangular2x1-block .grid-item{
+    width: 33.5%;
+}
+.rectangular1x1-block .grid-item{
+    height: 100%;
+    width: 100%;
+}
+.rectangular1x1-block .grid-item .img-container{
+    height: 100%;
+    overflow: hidden;
+}
+.rectangular1x1-block .grid-item .grid-img{
+    height: 100%;
+}
+.rectangular1x3-block .grid-item{
+    width: 25%;
+}
+.rectangular1x3-block .grid-item:nth-child(3){
+    margin-right: 0;
+    /* width: 25%; */
 }
