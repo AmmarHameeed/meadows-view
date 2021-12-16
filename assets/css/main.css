@@ -168,7 +168,8 @@ body{
 }
 .grey-bg-overlay{
     position: absolute;
-    width: 400px;
+    width: calc(100% - 60%);
+    /* width: 400px; */
     height: calc(100% + 50px);
     background: #f1f1f1;
     top: -150px;
