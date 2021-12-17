@@ -74,14 +74,20 @@ body{
     /* position: absolute; */
     width: 100%;
     /* bottom: 0; */
-    height: 385px;
+    /* height: 385px; */
     background-color: #545451;
 }
 .footer-upper {
+    display: flex;
     border: 1px solid #AFAFAF;
 }
+.footer-upper-left {
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+}
 .footer-class .footer-logo-wrapper img{
-    width: 371px;
+    width: 275px;
 }
 .footer-logo-wrapper {
     padding: 72px 0 36px 0;
@@ -99,6 +105,12 @@ body{
     letter-spacing: 0.28px;
     color: #ffffff;
 }
+.footer-upper-middle {
+    padding-top: 72px;
+    width: 40%;
+    text-align: center;
+    color: white;
+}
 .footer-lower {
     display: flex;
     justify-content: center;
@@ -108,7 +120,8 @@ body{
     font-size: 17px;
     color: white;
     margin: 0;
-    padding-top: 21px;
+    padding: 20px 0;
+    cursor: default;
 }
 .phone-icon{
     display: inline-block;
