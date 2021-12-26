@@ -447,3 +447,17 @@ section.cosmetic-laser-section {
 .step-two,.step-three{
   display: none;
 }
+.cosmetic-page .custom-navbar {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e9e6e6;
+}
+.sub-nav {
+  width: 80%;
+  padding: 10px 0;
+  margin: auto;
+  border-bottom: 1px solid #e9e6e6;
+  font-family: "GroteskSemiBold";
+}
+.sub-nav-wrapper {
+  text-align: left;
+}
