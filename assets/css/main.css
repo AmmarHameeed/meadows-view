@@ -107,6 +107,7 @@ body {
   text-align: center;
 }
 .footer-desc p {
+  text-align: left;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.28px;
