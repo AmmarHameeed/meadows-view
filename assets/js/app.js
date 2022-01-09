@@ -7,4 +7,8 @@ $(document).ready(function(){
         $(".step-two").hide()
         $(".step-three").show()
     })
+    $('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+        $(".navbar-child-wrapper .navbar-nav").toggleClass("open-mobile-menu");
+	});
 });
