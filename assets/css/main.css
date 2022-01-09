@@ -624,4 +624,22 @@ section.cosmetic-laser-section {
   .placeholder-grid{
     display: none;
   }
+  section.cosmetic-laser-section{
+    margin: 100px 0;
+  }
+  .cls-row{
+    flex-flow: column;
+  }
+  .cls-left{
+    width: 100%;
+  }
+  .cls-right{
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .cls-right ul{
+    display: inline-block;
+  }
 }
